@@ -23,9 +23,15 @@ public class Main {
 
         p.product(1,2);
 
+        System.out.println("testprintHelloWorld");
+
         p.product(1,2,3);
 
+        System.out.println("testprintHelloWorld2");
+
         p.product(1.5,2.5);
+
+        System.out.println("testprintHelloWorld3");
 
 
     }
