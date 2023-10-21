@@ -12,7 +12,7 @@ public class Main {
 
         p.product(1.5,2.5);
     }
-    static class Product{
+   public static class Product{
 
 
         public  int product(int x,int y){
