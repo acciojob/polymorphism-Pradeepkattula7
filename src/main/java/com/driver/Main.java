@@ -12,24 +12,25 @@ public class Main {
 
        double c= p.product(1.5,2.5);
 
-       System.out.print(a+" "+b+" "+c);
+       System.out.println(a+" "+b+" "+c);
     }
-   public static class Product{
+
+   public static class Product {
 
 
-        public  int product(int x,int y){
+       public int product(int x, int y) {
 
-            return x+y;
-        }
+           return x*y;
+       }
 
-        public int product(int x,int y,int z){
+       public int product(int x, int y, int z) {
 
-            return x+y+z;
-        }
+           return x*y*z;
+       }
 
-        public double product(double x,double y){
+       public double product(double x, double y) {
 
-            return x+y;
-        }
-    }
+           return x*y;
+       }
+   }
 }
