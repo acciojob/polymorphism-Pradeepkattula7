@@ -6,11 +6,13 @@ public class Main {
 
         Product p=new Product();
 
-        p.product(1,2);
+       int a= p.product(1,2);
 
-        p.product(1,2,3);
+       int b= p.product(1,2,3);
 
-        p.product(1.5,2.5);
+       double c= p.product(1.5,2.5);
+
+       System.out.print(a+" "+b+" "+c);
     }
    public static class Product{
 
